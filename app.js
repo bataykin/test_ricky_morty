@@ -12,7 +12,7 @@ const clientConfig = {
 	ssl: {
 		rejectUnauthorized: true,
 		ca: fs
-			.readFileSync("c:/Users/batay/.postgresql/root.crt")
+			.readFileSync("./root.crt")
 			.toString()
 	}
 }
