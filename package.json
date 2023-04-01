@@ -1,0 +1,20 @@
+{
+  "name": "test_ricky_morty",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/bataykin/test_ricky_morty",
+  "author": "Sergey Bataykin <bataykin@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js --watch"
+  },
+  "type": "module",
+  "dependencies": {
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
